@@ -106,7 +106,7 @@ def get_names(turn):
     players[turn] = input(f"Please enter a name for {players[turn]}: ")
     while len(players[turn]) >> 25:
         players[turn] = "player_two"
-        players[turn] = input(f"Please enter a name for {players[1]} that is less than 25 characters: ")
+        players[turn] = input(f"Please enter a name for {players[turn]} that is less than 25 characters: ")
 
     change_turn(turn)
 
